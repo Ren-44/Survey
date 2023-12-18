@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+  <h1 id="title">Ice Cream Flavor Popularity Ratios</h1>
+  <p id="description">This is a survey for a stem project. It will take your age, gender/sex, and favorite ice cream flavor.</p> 
+  <p>Names and emails are not collected, but used to register the data.</p>
+  <form id="survey-form">
+    <label for="name" id="name-label"> Your Name Here
+    <input id="name" type="text" required placeholder="Ren">
+    </label>
+    <label id="email-label" for="email"> Your Email Here
+    <input id="email" type="email" required placeholder="youremail@gmail.com">
+    </label>
+    <label for="number" id="number-label">Your Age (years) Here
+    <input type="number" id="number" min="1" max="100" placeholder="14">
+    </label>
+    <label for="female"><input id="female" type="radio" name="gender"  value="WOMAN" class="inline">Female</label>
+    <label for="male" ><input id="male" value="MAN" type="radio" name="gender" class="inline">Male</label>
+    <select id="dropdown" required>
+      <option value="0">(select one)</option>
+      <option value="1">Vanilla</option>
+<option value="2">Chocolate</option>
+<option value="3">Strawberry</option>
+<option value="4">Neopolitan</option>
+<option value="5">Cookies and Cream</option>
+<option value="6">Cookie Crumble</option>
+<option value="7">Rocky Road</option>
+<option value="8">Cookie Dough</option>
+<option value="9">Birthday Cake</option>
+<option value="10">Cotton Candy</option>
+<option value="11">Mint Chocolate Chip</option>
+<option value="12">Double Fudge Brownie</option>
+<option value="13">Turtle</option>
+<option value="14">Pistachio</option>
+<option value="15">Chocolate Peanut Butter</option>
+<option value="16">Blueberry Cheesecake</option>
+<option value="17">Bubblegum</option>
+<option value="18">Butter Pecan</option>
+<option value="19">Raspberry(all raspberry)</option>
+<option value="20">Coffee</option>
+<option value="21">Banana</option>
+<option value="22">Caramel</option>
+<option value="23">Chocolate Chip Cookie Dough</option>
+<option value="24">French Vanilla</option>
+<option value="25">Strawberry Cheesecake</option>
+<option value="26">Butterscotch</option>
+<option value="27">Salted Caramel</option>
+<option value="28">Cake Batter</option>
+<option value="29">Chocolate Chip</option>
+<option value="30">Krazy Kookie Dough</option>
+<option value="31">Not On List</option>
+      </select>
+      <p id="new-flavor">If you didn't see your favorite flavor on the list then please write it down here.</p>
+      <label for="not-on-list">
+      <textarea id="not-on-list" rows="1" col="1"></textarea>
+      </label>
+	  <label for="submit">
+      <input type="submit" id="submit">
+	  </label>
+  </form>

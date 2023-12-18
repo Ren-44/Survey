@@ -1,0 +1,10 @@
+h1 {margin: auto; font-family: Comic Sans MS; font-size: 26; text-align: center}
+p {font-family: Comic Sans MS; font-size: 16; margin: 1em auto; text-align: center}
+input {display: block; height: 28px; font-family: Comic Sans MS}
+select {font-family: Comic Sans MS; display: block }
+.inline {display: inline; width: unset; margin: 0 0.5em 0 0; vertical-align: middle;}
+label {font-family: Comic Sans MS; font-size: 16px; display: block}
+input[type="submit"] {display: block;
+margin: 1em;}
+form {width: 60vw; max-width: 500px; min-width: 300px; margin: 0 auto; padding-bottom: 2em}
+html {background-color: #A6A6A6}
